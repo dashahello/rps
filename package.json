@@ -1,0 +1,21 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "doc": "node node_modules/jsdoc/jsdoc.js -c ./doc/config.json --readme README.md",
+    "coverage": "nyc npm run test",
+    "coverage-watch": "nodemon --exec \"npm run coverage\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "^3.6.7",
+    "mocha": "^9.0.2",
+    "nyc": "^15.1.0"
+  }
+}

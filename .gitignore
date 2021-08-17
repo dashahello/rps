@@ -1,0 +1,12 @@
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore the test directories
+/doc
+/test
+
+# The files
+.nycrc.json
+
+# The file containing environment variables 
+.env
